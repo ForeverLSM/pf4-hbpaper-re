@@ -4,9 +4,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 #video .wrap {
-  max-width: 100%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 #video .wrap hgroup {
   
@@ -25,7 +29,8 @@
   line-height: 2;
   color: #555;
 }
+
 #video .wrap iframe {
-  border-radius: 15px;
-  margin-top: 20px;
+  width: 900px;
+  height: 506px;
 }
