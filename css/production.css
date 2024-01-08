@@ -1,0 +1,123 @@
+section#production{
+
+  display: flex;
+  align-items: center;
+}
+section#production .wrap{
+
+}
+section#production .wrap hgroup{
+
+}
+section#production .wrap hgroup .h4{
+
+  font-weight: 600;
+  color: #35578e;
+  text-transform: uppercase;
+}
+section#production .wrap hgroup .p{
+
+  line-height: 2;
+  color: #555;
+  text-transform: uppercase;
+}
+section#production .wrap ul.proimg{
+
+  margin-top: 20px;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+section#production .wrap ul.proimg li{
+
+}
+section#production .wrap ul.proimg li a{
+  display: block;
+  width: 450px;
+  height: 210px;
+}
+section#production .wrap ul.proimg li:nth-child(1) a{
+  background-image: url(../img/product/paper-01.jpg);
+  background-size: cover;
+  background-position: left;
+}
+section#production .wrap ul.proimg li:nth-child(1):hover a{
+  transform: scale(1.04);
+  transition: all 0.5s ease-in-out;
+  background-color: beige;
+}
+section#production .wrap ul.proimg li:nth-child(2) a{
+  background-image: url(../img/product/paper-02.jpg);
+  background-size: cover;
+}
+section#production .wrap ul.proimg li:nth-child(2):hover a{
+  transform: scale(1.04);
+  transition: all 0.5s ease-in-out;
+  background-color: beige;
+}
+section#production .wrap ul.proimg li:nth-child(3) a{
+  background-image: url(../img/product/paper-03.jpg);
+  background-size: cover;
+  background-position-y: -86px;
+}
+section#production .wrap ul.proimg li:nth-child(3):hover a{
+  transform: scale(1.04);
+  transition: all 0.5s ease-in-out;
+  background-color: beige;
+}
+section#production .wrap ul.proimg li:nth-child(4) a{
+  background-image: url(../img/product/paper-04.jpg);
+  background-size: cover;
+}
+section#production .wrap ul.proimg li:nth-child(4):hover a{
+  transform: scale(1.04);
+  transition: all 0.5s ease-in-out;
+  background-color: beige;
+}
+section#production .wrap ul.proimg li:nth-child(5) a{
+  background-image: url(../img/product/paper-05.jpg);
+  background-size: cover;
+}
+section#production .wrap ul.proimg li:nth-child(5):hover a{
+  transform: scale(1.04);
+  transition: all 0.5s ease-in-out;
+  background-color: beige;
+}
+section#production .wrap ul.proimg li:nth-child(6) a{
+  background-image: url(../img/product/paper-06.jpg);
+  background-size: cover;
+  background-position-y: -77px;
+}
+section#production .wrap ul.proimg li:nth-child(6):hover a{
+  transform: scale(1.04);
+  transition: all 0.5s ease-in-out;
+  background-color: beige;
+}
+
+section#production .wrap ul.proimg li .h6{
+
+  line-height: 2.5;
+  color: #5070A2;
+  font-weight: 600;
+}
+section#production .wrap ul.proimg li .p14{
+   
+}
+section#production .wrap ul.dote{
+
+  margin-top: 15px;
+}
+section#production .wrap ul.dote li{
+  
+}
+
+section#production .wrap ul.dote li a{
+  
+  width: 10px;
+  height: 10px;
+  display: block;
+  background-color: #7D98C2;
+  border-radius: 50%;
+}
+section#production .wrap ul.dote li:not(:first-child) a{
+  background-color: #bababa;
+}

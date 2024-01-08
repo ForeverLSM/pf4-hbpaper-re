@@ -1,0 +1,27 @@
+#video {
+  
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#video .wrap {
+  max-width: 100%;
+}
+#video .wrap hgroup {
+  
+}
+#video .wrap hgroup h4 {
+  font-weight: 600;
+  color: #35578e;
+  text-transform: uppercase;
+}
+#video .wrap hgroup p {
+  
+  line-height: 2;
+  color: #555;
+}
+#video .wrap iframe {
+  border-radius: 15px;
+  margin-top: 20px;
+}

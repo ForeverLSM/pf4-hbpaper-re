@@ -1,0 +1,174 @@
+@media screen and (max-width:980px){
+  .vh100{
+    position: relative;
+    height: 100vw;
+  }
+  .h2{
+    font-size: calc(54px * 0.7);
+  }
+  .h3{
+    font-size: calc(40px * 0.7);
+  }
+  .h5{
+    font-size: calc(18px * 0.8);
+  }
+  .h4{
+    font-size: 30px;
+  }
+/* 헤더  */
+  header .wrap{
+  }
+  
+  header .wrap ul.menu{
+    display: none;
+  }
+  header .wrap h1.logo{
+    transform: initial;
+    padding-right: calc(100vw - 60vw);
+    box-sizing: border-box;
+  }
+  header .wrap h1.logo a{
+    width: 150px;
+    height: 25px;
+  }
+  header .ham{
+    display: flex;
+  }
+  /*  타이틀  */
+  #title div{
+    
+  height: 100%;
+  }
+  #title div .title01{
+  }
+  #title div .title02{
+  background-position-x: -235px;
+  }
+  #title div .title03{
+    background-position-x: -235px;
+  }
+  #title ul{
+    position: absolute;
+    left: 50%;
+  }
+    /*  비디오  */
+  #video{
+  height: 77vw;
+  }
+  #video .wrap{
+ 
+  padding: 0 20px;
+  }
+  #video .wrap iframe{
+     width: calc(100vw - 30px);
+     height: 36.25vw;
+  }
+ 
+  /* 비지니스   */
+  section#business{
+    
+  height: 70vw;
+  padding: 0 20px;
+  }
+  section#business .mom article{
+    
+  height: 80%;
+  }
+  section#business .mom article .h4{
+    
+  padding-left: 100px;
+  }
+  section#business .mom article .p{
+    
+  padding-left: 100px;
+  }
+  section#business .mom article .p span{
+    
+  display: none;
+  }
+  section#business .mom article figure img{
+    
+  width: 50vw;
+  object-fit: cover;
+  object-position: left;
+  }
+  section#business .spangr{
+    
+  top: 45%;
+  padding: 0 28px;
+  }
+  section#business div .busibutton{
+    
+  bottom: 36%;
+  }
+  /*  프로덕션  */
+  section#production{
+    
+  padding: 0 20px;
+  width: 100vw;
+  height: 50vw;
+  min-height: initial;
+  }
+  section#production .wrap ul.proimg{
+    
+  column-gap: 20px;
+  /*! justify-content: center; */
+  }
+  section#production .wrap ul.proimg li:not(:first-child){
+    display: none;
+  }
+  section#production .wrap ul.proimg li:nth-child(2){
+    
+  display: initial;
+  }
+  section#production .wrap ul.dote{
+    
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  }
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+@media screen and (max-width:500px){
+  
+  .h4{
+    font-size: 25px;
+  }
+  
+  
+  #title div .title02{
+    
+  display: none;
+  }
+  #title div .title03{
+    
+  display: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
