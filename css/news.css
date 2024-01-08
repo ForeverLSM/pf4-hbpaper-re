@@ -1,6 +1,6 @@
 section#news {
   
-  height: 80vh;
+  height: 90vh;
   display: flex;
   align-items: center;
 }
@@ -21,7 +21,7 @@ section#news .wrap >div {
 section#news .wrap div hgroup .h4 {
   
   font-weight: 600;
-  color: #93610A;
+  color: #3a3a3a;
 }
 section#news .wrap div hgroup .p {
   

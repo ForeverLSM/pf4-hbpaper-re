@@ -1,8 +1,15 @@
 footer {
 
+  background-color: rgb(28, 61, 115);
 }
 footer .wrap {
 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  color: white;
 }
 
 footer .wrap h1{
@@ -10,6 +17,8 @@ footer .wrap h1{
 }
 footer .wrap ul.pnb {
 
+  margin-bottom: 30px;
+  column-gap: 20px;
 }
 
 footer .wrap ul.pnb li {
@@ -17,6 +26,7 @@ footer .wrap ul.pnb li {
 }
 footer .wrap ul.pnb li a {
 
+  color: white;
 }
 footer .wrap ul.pnb li:not(:first-child) a {
 
@@ -24,6 +34,7 @@ footer .wrap ul.pnb li:not(:first-child) a {
 footer .wrap div{
 
 
+  margin-bottom: 5px;
 }
 footer .wrap div ul.fnb{
 
@@ -31,23 +42,31 @@ footer .wrap div ul.fnb{
 footer .wrap div ul.fnb li{
 
 }
+footer .wrap div ul.fnb li::before:not(:first-child){
+  content: "";
+}
 footer .wrap div ul.fnb li a{
 
 
+  color: white;
+  padding-right: 20px;
 }
 
 footer .wrap div ul.fnb li:not(:first-child) a {
 
+  border-left: solid 2px #f9f9f9;
+  padding: 0px 20px;
 }
 
 footer .wrap div select{
 
   width: 135px;
   height: 35px;
-  transform: translateY(-10px);
-  background-color: #585858;
+  transform: translate(20px, -10px);
+  background-color: rgb(53, 87, 142, 1);
   color: white;
   border: 2px solid #aaa;
+  text-align: center;
 }
 footer .wrap div select option{
 
