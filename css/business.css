@@ -18,6 +18,10 @@ section#business hgroup .h4 {
   font-weight: 600;
   color: #3a3a3a;
 }
+section#business hgroup .h4 span {
+  
+  color: #f5ad1d;
+}
 section#business hgroup .p {
   line-height: 2;
   color: #555;

@@ -15,6 +15,10 @@ section#production .wrap hgroup .h4{
   color: #3a3a3a;
   text-transform: uppercase;
 }
+section#production .wrap hgroup .h4 span{
+  
+  color: #7189af;
+}
 section#production .wrap hgroup .p{
 
   line-height: 2;

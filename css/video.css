@@ -16,6 +16,10 @@
   color: #3a3a3a;
   text-transform: uppercase;
 }
+#video .wrap hgroup h4 span{
+  
+  color: #7fae30;
+}
 #video .wrap hgroup p {
   
   line-height: 2;
