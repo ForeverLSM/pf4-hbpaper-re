@@ -1,6 +1,6 @@
 footer {
 
-  background-color: rgb(39, 64, 104);
+  background-color: rgb(41, 58, 85);
 }
 footer .wrap {
 
@@ -27,14 +27,40 @@ footer .wrap ul.pnb li {
 footer .wrap ul.pnb li a {
 
   color: white;
+  font-weight: 300;
 }
-footer .wrap ul.pnb li:not(:first-child) a {
-
+footer .wrap ul.pnb li a::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-size: contain;
+  vertical-align: -15px;
+  margin-right: 10px;
+}
+footer .wrap ul.pnb li:nth-child(1) a::before{
+  background-image: url(../img/footer/bag-01.png);
+}
+footer .wrap ul.pnb li:nth-child(2) a::before{
+  background-image: url(../img/footer/bag-02.png);
+}
+footer .wrap ul.pnb li:nth-child(3) a::before{
+  background-image: url(../img/footer/bag-03.png);
+}
+footer .wrap ul.pnb li:nth-child(4) a::before{
+  background-image: url(../img/footer/bag-04.png);
+}
+footer .wrap ul.pnb li:nth-child(5) a::before{
+  background-image: url(../img/footer/bag-05.png);
+}
+footer .wrap ul.pnb li:nth-child(6) a::before{
+  background-image: url(../img/footer/bag-06.png);
+}
+footer .wrap ul.pnb li:nth-child(7) a::before{
+  background-image: url(../img/footer/bag-07.png);
 }
 footer .wrap div{
-
-
-  margin-bottom: 5px;
+ margin-bottom: 5px;
 }
 footer .wrap div ul.fnb{
 
@@ -50,6 +76,7 @@ footer .wrap div ul.fnb li a{
 
   color: white;
   padding-right: 20px;
+  font-weight: 300;
 }
 
 footer .wrap div ul.fnb li:not(:first-child) a {
@@ -76,8 +103,12 @@ footer .wrap> a{
 }
 footer .wrap address{
 
+  font-weight: 300;
 }
 
 footer .wrap p{
 
+  font-weight: 200;
+  font-size: 13px;
+  margin-top: 30px;
 }
