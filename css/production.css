@@ -75,7 +75,6 @@ section#production .wrap ul.proimg li:nth-child(4) a{
 section#production .wrap ul.proimg li:nth-child(4):hover a{
   transform: scale(1.04);
   transition: all 0.5s ease-in-out;
-  background-color: beige;
 }
 section#production .wrap ul.proimg li:nth-child(5) a{
   background-image: url(../img/product/paper-05.jpg);

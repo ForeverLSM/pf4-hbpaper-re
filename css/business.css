@@ -5,38 +5,42 @@ section#business {
   flex-direction: column;
   justify-content: center;
 }
-section#business div {
+section#business div{
   position: relative;
   width: 100%;
   max-width: 100%;
 }
-section#business hgroup {
+
+
+
+section#business div hgroup {
   width: 1520px;
   margin: 0 auto;
 }
-section#business hgroup .h4 {
+section#business div hgroup .h4 {
   font-weight: 600;
   color: #3a3a3a;
 }
-section#business hgroup .h4 span {
+section#business div hgroup .h4 span {
   
   color: #f5ad1d;
 }
-section#business hgroup .p {
+section#business div hgroup .p {
   line-height: 2;
   color: #555;
 }
-section#business .mom {
+section#business div .mom {
   height: 500px;
   margin-top: 30px;
 }
-section#business .mom article {
+
+section#business div .mom article {
   position: relative;
   height: 100%;
   background-color: #D7A143;
   overflow: hidden;
 }
-section#business .mom article .h4 {
+section#business div .mom article .h4 {
   margin: 0 auto;
   width: 1520px;
   padding-top: 100px;
@@ -44,7 +48,7 @@ section#business .mom article .h4 {
   color: white;
   text-shadow: 1px 1px 1px rgb(125, 90, 30);
 }
-section#business .mom article .p {
+section#business div .mom article .p {
   margin: 0 auto;
   color: white;
   padding-top: 25px;
@@ -52,26 +56,26 @@ section#business .mom article .p {
   font-weight: 500;
   text-shadow: 1px 1px 1px rgb(125, 90, 30);
 }
-section#business .mom article .p br{
+section#business div .mom article .p br{
   
 }
-section#business .mom article .p span {
+section#business div .mom article .p span {
   line-height: 2;
   font-weight: 300;
 }
-section#business .mom article figure {
+section#business div .mom article figure {
   position: absolute;
   right: 0;
   top: 0;
 }
-section#business .mom article figure img {
+section#business div .mom article figure img {
   height: 500px;
   width: 951.5px;
 }
-section#business .mom article figure figcaption {
+section#business div .mom article figure figcaption {
   
 }
-section#business .spangr{
+section#business div .spangr{
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -79,10 +83,10 @@ section#business .spangr{
   padding: 0 60px;
   box-sizing: border-box;
 }
-section#business .spangr .beforearrow {
+section#business div .spangr .beforearrow {
 
 }
-section#business .spangr .beforearrow a{
+section#business div .spangr .beforearrow a{
   font-size: 0;
   display: block;
   width: 25px;
@@ -93,10 +97,10 @@ section#business .spangr .beforearrow a{
   transform: rotate(135deg);
 }
 
-section#business .spangr .afterarrow {
+section#business div .spangr .afterarrow {
 
 }
-section#business .spangr .afterarrow a{
+section#business div .spangr .afterarrow a{
   font-size: 0;
   content: "";
   display: block;
