@@ -35,6 +35,18 @@ section#news .wrap div hgroup .p {
 
 section#news .wrap div .bt{
 
+  background-image: url(../img/news/one.png);
+  width: 75px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height: 1.5;
+}
+section#news .wrap div .bt:hover {
+  
+  background-image: url(../img/news/one-ha.png);
+  color: white;
 }
 section#news .wrap div .bt::after{
   content: "";
@@ -45,9 +57,13 @@ section#news .wrap div .bt::after{
   background-repeat: no-repeat;
   background-size: contain;
   vertical-align: -8px;
-  margin-left: 3px;
+  margin-left: 5px;
 }
-
+section#news .wrap div .bt:hover::after{
+  
+  background-image: url(../img/news/arrow_forward-ho.png);
+}
+  
 section#news .wrap ul.newsgr {
   
   width: 100%;
