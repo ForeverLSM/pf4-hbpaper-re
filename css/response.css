@@ -86,6 +86,8 @@
 
   section#business div .mom article{
     
+  margin: 0;
+  width: 79%;
   }
   section#business div .mom article .h4{
     
@@ -95,7 +97,7 @@
     
   padding-left: 100px;
   white-space: nowrap;
-  width: 34vw;
+  width: 37vw;
   margin: 0;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -104,6 +106,7 @@
     
   display: none;
   }
+  
   section#business div .mom article figure img{
     
   width: 50vw;
@@ -111,19 +114,31 @@
   object-position: left;
   height: 41vw;
   }
+  section#business div figure{
+    
+  width: 78vw;
+  }
+  section#business div figure img{
+    
+  height: 100%;
+  object-fit: cover;
+  object-position: -20px;
+  }
   section#business div .spangr{
     
-  top: 45%;
+  top: 55%;
   padding: 0 28px;
   }
   section#business div .busibutton{
     
-  bottom: 17%;
+  padding-left: 10vw;
+  margin-top: 3vh;
   }
   
   section#business div .busibutton a{
     
   }
+  
   /*  프로덕션  */
   section#production{
     
@@ -240,10 +255,8 @@
   .h4{
     font-size: 25px;
   }
-  
-  
+   
   #title div .title02{
-    
   display: none;
   }
   #title div .title03{

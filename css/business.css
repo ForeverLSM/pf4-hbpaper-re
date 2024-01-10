@@ -32,17 +32,19 @@ section#business div hgroup .p {
 section#business div .mom {
   height: 500px;
   margin-top: 30px;
+  display: flex;
+  background-color: #D7A143;
+  justify-content: space-between;
+  overflow: hidden;
+  position: initial;
 }
 
 section#business div .mom article {
-  position: relative;
-  height: 100%;
-  background-color: #D7A143;
-  overflow: hidden;
+  margin-left: calc((100% - 1520px) / 2);
+  width: calc(100vw / 2);
 }
 section#business div .mom article .h4 {
   margin: 0 auto;
-  width: 1520px;
   padding-top: 100px;
   font-weight: 600;
   color: white;
@@ -52,7 +54,6 @@ section#business div .mom article .p {
   margin: 0 auto;
   color: white;
   padding-top: 25px;
-  width: 1520px;
   font-weight: 500;
   text-shadow: 1px 1px 1px rgb(125, 90, 30);
 }
@@ -63,6 +64,7 @@ section#business div .mom article .p span {
   line-height: 2;
   font-weight: 300;
 }
+
 section#business div .mom article figure {
   position: absolute;
   right: 0;
@@ -72,7 +74,31 @@ section#business div .mom article figure img {
   height: 500px;
   width: 951.5px;
 }
-section#business div .mom article figure figcaption {
+section#business .mom article .busibutton {
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+section#business .mom article .busibutton a{
+  border: 1px solid #eee;
+  width: 150px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 2.5;
+  color: white;
+}
+section#business .mom article .busibutton:hover a{
+  
+  background-color: #B88222;
+  transition: 1s;
+}
+section#business div figure{
+  width: 70%;
+}
+section#business div figure img{
+}
+section#business div figure figcaption {
   
 }
 section#business div .spangr{
@@ -111,23 +137,4 @@ section#business div .spangr .afterarrow a{
   border-left: hidden;
   transform: rotate(-45deg);
 }
-section#business div .busibutton {
-  
-  position: absolute;
-  left: 10%;
-  bottom: 25%;
-}
-section#business div .busibutton a{
-  border: 1px solid #eee;
-  width: 150px;
-  height: 40px;
-  display: inline-block;
-  text-align: center;
-  line-height: 2.5;
-  color: white;
-}
-section#business div .busibutton:hover a{
-  
-  background-color: #B88222;
-  transition: 1s;
-}
+
