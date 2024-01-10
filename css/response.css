@@ -94,6 +94,11 @@
   section#business div .mom article .p{
     
   padding-left: 100px;
+  white-space: nowrap;
+  width: 34vw;
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
   }
   section#business div .mom article .p span{
     
@@ -113,7 +118,11 @@
   }
   section#business div .busibutton{
     
-  bottom: 36%;
+  bottom: 17%;
+  }
+  
+  section#business div .busibutton a{
+    
   }
   /*  프로덕션  */
   section#production{
