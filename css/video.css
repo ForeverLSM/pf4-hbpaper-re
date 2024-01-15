@@ -1,10 +1,11 @@
 #video {
   
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 #video .wrap {
   display: flex;
@@ -12,22 +13,36 @@
   justify-content: space-between;
   align-items: center;
 }
+#video .wrap::before{
+  content: "introduction video";
+  position: absolute;
+  font-size: 186px;
+  color: #eeeeeebd;
+  text-transform: uppercase;
+  z-index: -1;
+  /*! top: 0; */
+  line-height: 2;
+}
 #video .wrap hgroup {
   
 }
 #video .wrap hgroup h4 {
-  font-weight: 600;
-  color: #3a3a3a;
+  color: #6e6e6e;
   text-transform: uppercase;
+  font-weight: 300;
 }
 #video .wrap hgroup h4 span{
   
   color: #7fae30;
+  font-size: 35px;
+  display: block;
+  font-weight: 600;
+  line-height: 1.2;
 }
 #video .wrap hgroup p {
   
   line-height: 2;
-  color: #555;
+  color: #959595;
 }
 
 #video .wrap iframe {
