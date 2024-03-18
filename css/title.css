@@ -1,0 +1,107 @@
+#title {
+  
+}
+#title div {
+  height: 100%;
+  max-width: 100%;
+}
+
+#title div .title01{
+  background-image: url(../img/title/title-01-01.jpg);
+  width: 100%;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#title div .title01 a{
+  display: block;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+#title div .title01:hover a{
+  opacity: 0;
+  transition: 1s;
+}
+
+#title div .title02{
+
+  background-image: url(../img/title/title-02-01.jpg);
+  width: 100%;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#title div .title02 a{
+  display: block;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+#title div .title02:hover a{
+  opacity: 0;
+  transition: 1s;
+}
+
+#title div .title03{
+
+  background-image: url(../img/title/title-03-02.jpg);
+  width: 100%;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+}
+#title div .title03 a{
+  display: block;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+#title div .title03:hover a{
+  opacity: 0;
+  transition: 1s;
+}
+#title div .title04{
+
+  background-image: url(../img/title/title-03-02.jpg);
+  width: 100%;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: none;
+}
+#title div .title04 a{
+  display: block;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+#title div .title04:hover a{
+  opacity: 0;
+  transition: 1s;
+}
+
+#title ul{
+  
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  transform: translateY(-30px);
+}
+#title ul li{
+  
+}
+#title ul li a{
+  
+  width: 10px;
+  height: 10px;
+  display: block;
+  background-color: #7D98C2;
+  border-radius: 50%;
+}
+#title ul li:not(:first-child) a{
+  
+  background-color: white;
+}
+

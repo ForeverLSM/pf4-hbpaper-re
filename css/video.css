@@ -1,0 +1,36 @@
+#video {
+  
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#video .wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+#video .wrap hgroup {
+  
+}
+#video .wrap hgroup h4 {
+  font-weight: 600;
+  color: #3a3a3a;
+  text-transform: uppercase;
+}
+#video .wrap hgroup h4 span{
+  
+  color: #7fae30;
+}
+#video .wrap hgroup p {
+  
+  line-height: 2;
+  color: #555;
+}
+
+#video .wrap iframe {
+  width: 900px;
+  height: 506px;
+}
