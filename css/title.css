@@ -14,16 +14,35 @@
   background-repeat: no-repeat;
   height: 100%;
 }
+
 #title div .title01 a{
-  display: block;
+  display: flex;
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  opacity: 0;
 }
 #title div .title01:hover a{
-  opacity: 0;
+  opacity: 1;
   transition: 1s;
+  background-color: rgba(0,0,0,0.5);
 }
+#title div .title01 a .h1{
 
+  order: 2;
+  line-height: 1.5;
+  font-weight: 600;
+}
+#title div .title01 a .h1:hover{
+  
+}
+#title div .title01 a p{
+
+  font-size: 18px;
+  font-weight: 200;
+}
 #title div .title02{
 
   background-image: url(../img/title/title-02-01.jpg);
@@ -34,15 +53,29 @@
   height: 100%;
 }
 #title div .title02 a{
-  display: block;
+  display: flex;
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  opacity: 0;
 }
 #title div .title02:hover a{
-  opacity: 0;
+  opacity: 1;
   transition: 1s;
+  background-color: rgba(0,0,0,0.5);
 }
-
+#title div .title02 a .h1{
+  order: 2;
+  line-height: 1.5;
+  font-weight: 600;
+}
+#title div .title02 a p {
+  
+  font-size: 18px;
+  font-weight: 200;
+}
 #title div .title03{
 
   background-image: url(../img/title/title-03-02.jpg);
@@ -54,13 +87,29 @@
   background-position: center;
 }
 #title div .title03 a{
-  display: block;
+  display: flex;
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  opacity: 0;
 }
 #title div .title03:hover a{
-  opacity: 0;
+  opacity: 1;
   transition: 1s;
+  background-color: rgba(0,0,0,0.5);
+}
+#title div .title03 a .h1{
+  
+  order: 2;
+  line-height: 1.5;
+  font-weight: 600;
+}
+#title div .title03 a p{
+  
+  font-size: 18px;
+  font-weight: 200;
 }
 #title div .title04{
 

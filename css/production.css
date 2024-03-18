@@ -2,6 +2,7 @@ section#production{
 
   display: flex;
   align-items: center;
+  height: 115vh;
 }
 section#production .wrap{
 
@@ -11,33 +12,39 @@ section#production .wrap hgroup{
 }
 section#production .wrap hgroup .h4{
 
-  font-weight: 600;
-  color: #3a3a3a;
   text-transform: uppercase;
+  font-weight: 300;
+  color: #6e6e6e;
 }
 section#production .wrap hgroup .h4 span{
   
   color: #7189af;
+  font-size: 35px;
+  font-weight: 600;
+  display: block;
+  line-height: 1.2;
 }
 section#production .wrap hgroup .p{
 
   line-height: 2;
-  color: #555;
   text-transform: uppercase;
+  color: #959595;
 }
 section#production .wrap ul.proimg{
 
-  margin-top: 30px;
   flex-wrap: wrap;
-  row-gap: 15px;
+  row-gap: 30px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 section#production .wrap ul.proimg li{
 
+  width: 350px;
 }
 section#production .wrap ul.proimg li a{
   display: block;
-  width: 450px;
-  height: 210px;
+  height: 209px;
 }
 section#production .wrap ul.proimg li:nth-child(1) a{
   background-image: url(../img/product/paper-01.jpg);
@@ -75,7 +82,6 @@ section#production .wrap ul.proimg li:nth-child(4) a{
 section#production .wrap ul.proimg li:nth-child(4):hover a{
   transform: scale(1.04);
   transition: all 0.5s ease-in-out;
-  background-color: beige;
 }
 section#production .wrap ul.proimg li:nth-child(5) a{
   background-image: url(../img/product/paper-05.jpg);
@@ -99,12 +105,13 @@ section#production .wrap ul.proimg li:nth-child(6):hover a{
 
 section#production .wrap ul.proimg li .h6{
 
-  line-height: 2.5;
+  line-height: 2;
   color: #5070A2;
   font-weight: 600;
 }
 section#production .wrap ul.proimg li .p14{
    
+  color: #959595;
 }
 section#production .wrap ul.dote{
 
